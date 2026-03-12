@@ -1,0 +1,174 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#container{
+    width: 100%;
+    border: 1px solid red;
+}
+header{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: yellow;
+    justify-content: space-between;
+    align-items: center;
+}
+#logo{
+    width: 40%;
+}
+#logo img{
+    width: 100%;
+}
+#navbar,#form{
+    display: none;
+}
+#hero{
+    background-image: url(https://templatekit.jegtheme.com/musicy/wp-content/uploads/sites/121/2021/07/group-of-homeschooling-children-with-teacher-having-music-lesson-indoors-coronavirus-concept-1-1-e1626148006985.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    height: 300px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    color: orange;
+}
+
+#music{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: -50px;
+    width: 90%;
+}
+#music div{
+    width: 100%;
+    background-color: orange;
+}
+#music-3{
+    order: 2;
+}
+#music-1{
+    order: 3;
+   
+}
+#music-2{
+    order: 1;
+}
+
+#about{
+    display: flex;
+    flex-wrap: wrap;
+}
+#about div{
+    width: 100%;
+}
+#about div img{
+    width: 100%;
+}
+
+#program{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+#puniq{
+    width: 100%;
+    text-align: center;
+}
+.program-item{
+    width: 90%;
+        border: 1px solid black;
+            margin: 8px;
+
+
+    
+}
+.program-item img{
+    width: 100%;
+
+}
+#facility{
+    height: 300px;
+    background-color: orange;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#free{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-top: -40px;
+}
+#free div{
+    border: 1px solid black;
+    background-color: white;
+    width: 90%;
+    margin: 10px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 5px grey;
+}
+footer{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: orange;
+    color: white;
+    justify-content: center;
+    
+}
+.ft{
+    width: 100%;
+    text-align: center;
+    margin: 10px;
+}
+#ftu{
+    width: 100%;
+}
+
+@media only screen and (min-width:768px){
+    #free div{
+   
+    width: 47%;
+    }
+    .ft{
+    width: 47%;
+    }
+    .program-item{
+    width: 47%;}
+}
+
+@media only screen and (min-width:1200px){
+    #free div{
+   
+    width: 23%;
+    }
+    .ft{
+    width: 23%;
+    }
+    .program-item{
+    width: 30%;}
+
+    #about div{
+    width: 47%;
+    margin: 10px;
+}
+#navbar,#form{
+    display: block;
+}
+#icon{
+    display: none;
+}
+#logo{
+    width: 20%;
+}
+a{
+    color: white;
+    margin: 0px 20px;
+}
+}
